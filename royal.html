@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nonprofit - Reentry & Rehabilitation</title>
+    <title>Royal Chances Reentry Foundation | Restoring Dignity & Opportunity</title>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- FontAwesome for Icons -->
@@ -15,10 +15,14 @@
                 extend: {
                     colors: {
                         royal: {
+                            50: '#f5f3ff',
+                            100: '#ede9fe',
+                            700: '#6d28d9',
                             800: '#4c1d95', /* Deep Royal Purple */
                             900: '#3b0764',
                         },
                         gold: {
+                            100: '#fef9c3',
                             400: '#facc15',
                             500: '#eab308', /* Classic Gold */
                             600: '#ca8a04',
@@ -29,7 +33,6 @@
         }
     </script>
     <style>
-        /* Custom styles for smooth scrolling and minimal tweaks */
         html {
             scroll-behavior: smooth;
         }
@@ -44,38 +47,36 @@
     <!-- Navigation -->
     <nav class="bg-royal-900 text-white shadow-lg sticky top-0 z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
-            <!-- Logo Placeholder -->
             <a href="#" class="flex items-center space-x-3 group">
                 <div class="w-10 h-10 bg-gold-500 text-royal-900 rounded-full flex items-center justify-center font-bold text-xl group-hover:bg-white transition-colors duration-300">
-                    <i class="fa-solid fa-hands-holding-circle"></i>
+                    <i class="fa-solid fa-crown"></i>
                 </div>
-                <span class="text-2xl font-bold tracking-wide uppercase">Foundation</span>
+                <div class="flex flex-col leading-none">
+                    <span class="text-xl font-bold tracking-tight uppercase">Royal Chances</span>
+                    <span class="text-[10px] text-gold-400 font-semibold tracking-widest uppercase">Reentry Foundation</span>
+                </div>
             </a>
 
-            <!-- Desktop Menu -->
             <div class="hidden md:flex space-x-8 font-medium">
                 <a href="#about" class="hover:text-gold-400 transition">About</a>
+                <a href="#values" class="hover:text-gold-400 transition">Values</a>
                 <a href="#programs" class="hover:text-gold-400 transition">Programs</a>
-                <a href="#volunteer" class="hover:text-gold-400 transition">Volunteer</a>
                 <a href="#contact" class="hover:text-gold-400 transition">Contact</a>
             </div>
 
-            <!-- Donate Button -->
             <a href="#donate" class="hidden md:inline-block bg-gold-500 text-royal-900 px-6 py-2 rounded-full font-bold hover:bg-white hover:text-royal-900 transition transform hover:-translate-y-0.5 shadow-md">
-                Donate Now
+                Support Our Mission
             </a>
 
-            <!-- Mobile Menu Button -->
             <button id="mobile-menu-btn" class="md:hidden text-2xl focus:outline-none">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </div>
 
-        <!-- Mobile Menu (Hidden by default) -->
         <div id="mobile-menu" class="hidden md:hidden bg-royal-800 border-t border-royal-700">
             <a href="#about" class="block py-3 px-6 hover:bg-royal-700">About</a>
+            <a href="#values" class="block py-3 px-6 hover:bg-royal-700">Values</a>
             <a href="#programs" class="block py-3 px-6 hover:bg-royal-700">Programs</a>
-            <a href="#volunteer" class="block py-3 px-6 hover:bg-royal-700">Volunteer</a>
             <a href="#contact" class="block py-3 px-6 hover:bg-royal-700">Contact</a>
             <a href="#donate" class="block py-3 px-6 bg-gold-500 text-royal-900 font-bold">Donate Now</a>
         </div>
@@ -85,20 +86,20 @@
     <header class="hero-pattern text-white py-24 md:py-32">
         <div class="container mx-auto px-6 text-center max-w-4xl">
             <div class="inline-block mb-4 px-4 py-1 bg-royal-800 rounded-full text-gold-400 text-sm font-semibold tracking-wider uppercase border border-royal-600">
-                Restoring Hope & Dignity
+                Restoring Hope, Dignity & Success
             </div>
             <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
-                Lorem ipsum dolor sit amet consectetur.
+                Empowering Returning Citizens Through Lived Experience
             </h1>
-            <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto">
-                Suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque. Arcu risus quis varius quam quisque id diam vel.
+            <p class="text-lg md:text-xl text-gray-200 mb-10 max-w-3xl mx-auto leading-relaxed">
+                Royal Chances Reentry Foundation provides education, mentorship, and support services designed to promote employment and reduce recidivism.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
                 <a href="#programs" class="bg-gold-500 text-royal-900 px-8 py-3 rounded-md font-bold text-lg hover:bg-white transition shadow-lg">
-                    Our Services
+                    Our Programs
                 </a>
                 <a href="#about" class="border-2 border-white text-white px-8 py-3 rounded-md font-bold text-lg hover:bg-white hover:text-royal-900 transition">
-                    Learn More
+                    Our Vision
                 </a>
             </div>
         </div>
@@ -111,40 +112,30 @@
                 <!-- Text Content -->
                 <div class="w-full md:w-1/2">
                     <h2 class="text-3xl md:text-4xl font-bold text-royal-900 mb-6 relative">
-                        Who We Are
+                        Our Story & Mission
                         <span class="absolute bottom-0 left-0 w-20 h-1 bg-gold-500 -mb-2"></span>
                     </h2>
-                    <p class="text-gray-600 mb-4 leading-relaxed">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    <p class="text-gray-700 mb-4 font-semibold">
+                        Royal Chances Reentry Foundation operates as a Learning and Resource Center providing workforce development, education, and life skills support for returning citizens.
                     </p>
-                    <p class="text-gray-600 mb-6 leading-relaxed">
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        The organization employs outreach workers, clinical staff, and volunteers to deliver programs including job placement, resume development, interview preparation, public speaking, and counseling referrals.
+                    </p>
+                    <p class="text-gray-600 mb-6 italic border-l-4 border-gold-500 pl-4">
+                        "To empower all returning citizens through lived-experience–led education, job readiness, and personal development. Royal Chances Reentry Foundation provides learning opportunities, mentorship, and support services designed to restore dignity, promote employment, and reduce recidivism."
                     </p>
                     
-                    <!-- Stats Grid -->
-                    <div class="grid grid-cols-3 gap-4 border-t border-gray-100 pt-6">
-                        <div class="text-center">
-                            <span class="block text-3xl font-bold text-gold-600">1.2k+</span>
-                            <span class="text-xs text-gray-500 uppercase">Lorem Ipsum</span>
-                        </div>
-                        <div class="text-center border-l border-gray-200">
-                            <span class="block text-3xl font-bold text-gold-600">85%</span>
-                            <span class="text-xs text-gray-500 uppercase">Dolor Sit</span>
-                        </div>
-                        <div class="text-center border-l border-gray-200">
-                            <span class="block text-3xl font-bold text-gold-600">10+</span>
-                            <span class="text-xs text-gray-500 uppercase">Years</span>
-                        </div>
+                    <div class="bg-royal-50 p-6 rounded-lg border-l-4 border-royal-700">
+                        <h4 class="font-bold text-royal-900 mb-2">Our Vision</h4>
+                        <p class="text-sm text-gray-700">To establish a national model of reentry education that connects learning, corporate partnerships, and community support to ensure every returning citizen achieves long-term stability and success.</p>
                     </div>
                 </div>
                 
-                <!-- Image Placeholder Area -->
                 <div class="w-full md:w-1/2">
-                    <div class="bg-gray-200 rounded-lg aspect-video flex items-center justify-center relative overflow-hidden shadow-xl border-b-8 border-gold-500">
+                    <div class="bg-gray-200 rounded-lg aspect-square flex items-center justify-center relative overflow-hidden shadow-xl border-b-8 border-gold-500">
                         <div class="text-center text-gray-400 p-8">
-                            <i class="fa-regular fa-image text-6xl mb-4"></i>
-                            <p class="uppercase font-bold tracking-widest">Image Placeholder</p>
-                            <p class="text-sm">Team or Mission Photo</p>
+                            <i class="fa-solid fa-users-rays text-7xl mb-4 text-royal-800 opacity-50"></i>
+                            <p class="uppercase font-bold tracking-widest text-royal-900">Lived Experience Led</p>
                         </div>
                     </div>
                 </div>
@@ -152,159 +143,127 @@
         </div>
     </section>
 
-    <!-- Programs / Services -->
+    <!-- Values Section -->
+    <section id="values" class="py-16 bg-royal-900 text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold mb-2">Our Core Values</h2>
+                <div class="w-24 h-1 bg-gold-500 mx-auto"></div>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-6 text-center">
+                <div>
+                    <div class="text-gold-500 text-3xl mb-2"><i class="fa-solid fa-heart"></i></div>
+                    <h4 class="font-bold uppercase text-xs tracking-widest">Empathy</h4>
+                </div>
+                <div>
+                    <div class="text-gold-500 text-3xl mb-2"><i class="fa-solid fa-scale-balanced"></i></div>
+                    <h4 class="font-bold uppercase text-xs tracking-widest">Accountability</h4>
+                </div>
+                <div>
+                    <div class="text-gold-500 text-3xl mb-2"><i class="fa-solid fa-door-open"></i></div>
+                    <h4 class="font-bold uppercase text-xs tracking-widest">Opportunity</h4>
+                </div>
+                <div>
+                    <div class="text-gold-500 text-3xl mb-2"><i class="fa-solid fa-people-group"></i></div>
+                    <h4 class="font-bold uppercase text-xs tracking-widest">Community</h4>
+                </div>
+                <div>
+                    <div class="text-gold-500 text-3xl mb-2"><i class="fa-solid fa-handshake-angle"></i></div>
+                    <h4 class="font-bold uppercase text-xs tracking-widest">Respect</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs -->
     <section id="programs" class="py-20 bg-gray-100">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-royal-900 mb-4">Our Programs</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</p>
             </div>
-
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Card 1 -->
-                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border-t-4 border-royal-900">
-                    <div class="w-14 h-14 bg-royal-100 text-royal-900 rounded-full flex items-center justify-center text-2xl mb-6">
-                        <i class="fa-solid fa-briefcase"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-gray-900">Job Training</h3>
-                    <p class="text-gray-600 mb-4">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non lacus nec dui hendrerit elementum.
-                    </p>
-                    <a href="#" class="text-gold-600 font-bold hover:text-gold-500 flex items-center">
-                        Read More <i class="fa-solid fa-arrow-right ml-2 text-sm"></i>
-                    </a>
+                <div class="bg-white p-8 rounded-lg shadow border-t-4 border-royal-900">
+                    <h3 class="text-xl font-bold mb-3">Learning Center</h3>
+                    <p class="text-gray-600 text-sm">Workforce development, education, and life skills support for returning citizens.</p>
                 </div>
-
-                <!-- Card 2 -->
-                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border-t-4 border-gold-500">
-                    <div class="w-14 h-14 bg-gold-100 text-gold-600 rounded-full flex items-center justify-center text-2xl mb-6">
-                        <i class="fa-solid fa-house-chimney"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-gray-900">Housing Support</h3>
-                    <p class="text-gray-600 mb-4">
-                        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque.
-                    </p>
-                    <a href="#" class="text-gold-600 font-bold hover:text-gold-500 flex items-center">
-                        Read More <i class="fa-solid fa-arrow-right ml-2 text-sm"></i>
-                    </a>
+                <div class="bg-white p-8 rounded-lg shadow border-t-4 border-gold-500">
+                    <h3 class="text-xl font-bold mb-3">Workforce Partnerships</h3>
+                    <p class="text-gray-600 text-sm">Creating fair-chance employment pathways with corporate and trade partners.</p>
                 </div>
-
-                <!-- Card 3 -->
-                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 border-t-4 border-royal-900">
-                    <div class="w-14 h-14 bg-royal-100 text-royal-900 rounded-full flex items-center justify-center text-2xl mb-6">
-                        <i class="fa-solid fa-scale-balanced"></i>
-                    </div>
-                    <h3 class="text-xl font-bold mb-3 text-gray-900">Legal Aid</h3>
-                    <p class="text-gray-600 mb-4">
-                        Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
-                    </p>
-                    <a href="#" class="text-gold-600 font-bold hover:text-gold-500 flex items-center">
-                        Read More <i class="fa-solid fa-arrow-right ml-2 text-sm"></i>
-                    </a>
+                <div class="bg-white p-8 rounded-lg shadow border-t-4 border-royal-900">
+                    <h3 class="text-xl font-bold mb-3">Transitional Housing</h3>
+                    <p class="text-gray-600 text-sm">Future expansion plans for halfway houses and structured reintegration support.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Call to Action / Volunteer -->
-    <section id="volunteer" class="py-20 bg-royal-900 text-white relative overflow-hidden">
-        <!-- Decorative Circle -->
-        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 rounded-full bg-white opacity-5"></div>
-        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-60 h-60 rounded-full bg-gold-500 opacity-10"></div>
-
-        <div class="container mx-auto px-6 relative z-10 text-center">
-            <h2 class="text-3xl md:text-5xl font-bold mb-6">Join Our Mission</h2>
-            <p class="text-xl text-royal-200 mb-10 max-w-3xl mx-auto">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquet quam id dui posuere blandit. Nulla quis lorem ut libero malesuada feugiat.
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center gap-6">
-                <button class="bg-gold-500 text-royal-900 px-8 py-4 rounded-lg font-bold text-lg hover:bg-white transition transform hover:scale-105 shadow-lg">
-                    Become a Volunteer
-                </button>
-                <button class="bg-transparent border-2 border-gold-500 text-gold-500 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gold-500 hover:text-royal-900 transition">
-                    Make a Donation
-                </button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
+    <!-- Footer with Contact Buttons -->
     <footer id="contact" class="bg-black text-gray-400 py-12 border-t border-gray-800">
         <div class="container mx-auto px-6">
             <div class="grid md:grid-cols-4 gap-8 mb-8">
-                <!-- Col 1: Brand -->
-                <div class="col-span-1 md:col-span-1">
-                    <div class="flex items-center space-x-2 text-white mb-4">
-                        <div class="w-8 h-8 bg-gold-500 text-royal-900 rounded-full flex items-center justify-center font-bold text-sm">
-                            <i class="fa-solid fa-hands-holding-circle"></i>
-                        </div>
-                        <span class="text-xl font-bold uppercase">Foundation</span>
-                    </div>
-                    <p class="text-sm">
-                        Helping individuals rebuild their lives through support, education, and community integration.
-                    </p>
+                <div class="col-span-1">
+                    <span class="text-white text-xl font-bold uppercase block mb-4">Royal Chances</span>
+                    <p class="text-sm">Restoring dignity and reducing recidivism through education and support.</p>
                 </div>
 
-                <!-- Col 2: Links -->
                 <div>
-                    <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Quick Links</h4>
+                    <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Quick Links</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="#" class="hover:text-gold-500 transition">Home</a></li>
                         <li><a href="#about" class="hover:text-gold-500 transition">About Us</a></li>
-                        <li><a href="#programs" class="hover:text-gold-500 transition">Our Programs</a></li>
-                        <li><a href="#" class="hover:text-gold-500 transition">Success Stories</a></li>
+                        <li><a href="#programs" class="hover:text-gold-500 transition">Programs</a></li>
+                        <li><a href="#values" class="hover:text-gold-500 transition">Core Values</a></li>
                     </ul>
                 </div>
 
-                <!-- Col 3: Contact -->
+                <!-- Contact Buttons -->
                 <div>
-                    <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Contact Us</h4>
-                    <ul class="space-y-2 text-sm">
-                        <li class="flex items-start">
-                            <i class="fa-solid fa-location-dot mt-1 mr-2 text-gold-500"></i>
-                            <span>123 Lorem Ipsum St.<br>Cityville, ST 12345</span>
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fa-solid fa-phone mr-2 text-gold-500"></i>
-                            <span>(555) 123-4567</span>
-                        </li>
-                        <li class="flex items-center">
-                            <i class="fa-solid fa-envelope mr-2 text-gold-500"></i>
-                            <span>info@foundation.org</span>
-                        </li>
-                    </ul>
+                    <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Get In Touch</h4>
+                    <div class="space-y-3">
+                        <a href="mailto:info@royalchances.org" class="flex items-center space-x-3 bg-gray-900 border border-gray-800 p-3 rounded-lg hover:border-gold-500 hover:bg-royal-900 transition group w-full">
+                            <div class="w-8 h-8 flex-shrink-0 flex items-center justify-center bg-gold-500 text-royal-900 rounded-full group-hover:bg-white transition">
+                                <i class="fa-solid fa-envelope text-xs"></i>
+                            </div>
+                            <div class="overflow-hidden">
+                                <span class="block text-white text-[10px] font-bold uppercase tracking-widest leading-none mb-1">General Support</span>
+                                <span class="text-gray-500 text-xs font-medium block">Email Inquiries</span>
+                            </div>
+                        </a>
+                        
+                        <a href="mailto:mharris@royalchancesreentry.org" class="flex items-center space-x-3 bg-gray-900 border border-gray-800 p-3 rounded-lg hover:border-gold-500 hover:bg-royal-900 transition group w-full">
+                            <div class="w-8 h-8 flex-shrink-0 flex items-center justify-center bg-gold-500 text-royal-900 rounded-full group-hover:bg-white transition">
+                                <i class="fa-solid fa-bullhorn text-xs"></i>
+                            </div>
+                            <div class="overflow-hidden">
+                                <span class="block text-white text-[10px] font-bold uppercase tracking-widest leading-none mb-1">Media & PR</span>
+                                <span class="text-gray-500 text-xs font-medium block">Contact Marketing Team</span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
-                <!-- Col 4: Newsletter -->
+                <!-- Functional Newsletter Form -->
                 <div>
-                    <h4 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Stay Updated</h4>
-                    <form onsubmit="event.preventDefault();" class="flex flex-col space-y-2">
-                        <input type="email" placeholder="Enter email address" class="bg-gray-900 border border-gray-700 text-white px-4 py-2 rounded focus:outline-none focus:border-gold-500 transition">
-                        <button type="submit" class="bg-royal-800 text-white px-4 py-2 rounded font-bold hover:bg-gold-500 hover:text-royal-900 transition">Subscribe</button>
+                    <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Newsletter</h4>
+                    <form name="newsletter" method="POST" data-netlify="true" class="flex flex-col space-y-2">
+                        <input type="hidden" name="form-name" value="newsletter" />
+                        <input type="email" name="email" required placeholder="Your email address" class="bg-gray-900 border border-gray-700 text-white px-4 py-2 rounded focus:border-gold-500 outline-none text-sm">
+                        <button type="submit" class="bg-royal-800 text-white px-4 py-2 rounded font-bold hover:bg-gold-500 hover:text-royal-900 transition text-sm">Subscribe</button>
                     </form>
+                    <p class="text-[10px] mt-2 italic text-gray-500">Submissions are saved securely in Netlify.</p>
                 </div>
             </div>
 
-            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm">
-                <p>&copy; 2023 Foundation Name. All rights reserved.</p>
-                <div class="flex space-x-4 mt-4 md:mt-0">
-                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#" class="text-gray-400 hover:text-white transition"><i class="fa-brands fa-linkedin-in"></i></a>
-                </div>
+            <div class="border-t border-gray-800 pt-8 text-center md:text-left text-sm">
+                <p>&copy; 2025 Royal Chances Reentry Foundation. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Simple Mobile Menu Script -->
     <script>
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
-
-        btn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
-        });
+        btn.addEventListener('click', () => menu.classList.toggle('hidden'));
     </script>
 </body>
 </html>
