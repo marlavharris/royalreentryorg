@@ -26,6 +26,13 @@
                             400: '#facc15',
                             500: '#eab308', /* Classic Gold */
                             600: '#ca8a04',
+                        },
+                        hunter: {
+                            500: '#355E3B', /* Classic Hunter Green */
+                            600: '#2E4B33',
+                            700: '#26432A',
+                            800: '#1B3022',
+                            900: '#0F1A12',
                         }
                     }
                 }
@@ -64,7 +71,8 @@
                 <a href="#contact" class="hover:text-gold-400 transition">Contact</a>
             </div>
 
-            <a href="#donate" class="hidden md:inline-block bg-gold-500 text-royal-900 px-6 py-2 rounded-full font-bold hover:bg-white hover:text-royal-900 transition transform hover:-translate-y-0.5 shadow-md">
+            <!-- Donate Button points to support email -->
+            <a href="mailto:support@Royalchancesreentry.org?subject=Donation Inquiry" class="hidden md:inline-block bg-gold-500 text-royal-900 px-6 py-2 rounded-full font-bold hover:bg-white hover:text-royal-900 transition transform hover:-translate-y-0.5 shadow-md">
                 Support Our Mission
             </a>
 
@@ -78,7 +86,7 @@
             <a href="#values" class="block py-3 px-6 hover:bg-royal-700">Values</a>
             <a href="#programs" class="block py-3 px-6 hover:bg-royal-700">Programs</a>
             <a href="#contact" class="block py-3 px-6 hover:bg-royal-700">Contact</a>
-            <a href="#donate" class="block py-3 px-6 bg-gold-500 text-royal-900 font-bold">Donate Now</a>
+            <a href="mailto:support@Royalchancesreentry.org?subject=Donation Inquiry" class="block py-3 px-6 bg-gold-500 text-royal-900 font-bold">Donate Now</a>
         </div>
     </nav>
 
@@ -86,20 +94,20 @@
     <header class="hero-pattern text-white py-24 md:py-32">
         <div class="container mx-auto px-6 text-center max-w-4xl">
             <div class="inline-block mb-4 px-4 py-1 bg-royal-800 rounded-full text-gold-400 text-sm font-semibold tracking-wider uppercase border border-royal-600">
-                Lived-Experience Led Reentry
+                Restoring Hope, Dignity & Success
             </div>
             <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
-                Empowering Returning Citizens in Our Communities
+                Empowering Returning Citizens Through Lived Experience
             </h1>
             <p class="text-lg md:text-xl text-gray-200 mb-10 max-w-3xl mx-auto leading-relaxed">
-                Royal Chances Reentry Foundation provides the education, mentorship, and workforce development needed to restore dignity and ensure long-term stability.
+                Royal Chances Reentry Foundation provides education, mentorship, and support services designed to promote employment and reduce recidivism.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
                 <a href="#programs" class="bg-gold-500 text-royal-900 px-8 py-3 rounded-md font-bold text-lg hover:bg-white transition shadow-lg">
-                    Our Services
+                    Our Programs
                 </a>
                 <a href="#about" class="border-2 border-white text-white px-8 py-3 rounded-md font-bold text-lg hover:bg-white hover:text-royal-900 transition">
-                    Our Mission
+                    Our Vision
                 </a>
             </div>
         </div>
@@ -109,45 +117,47 @@
     <section id="about" class="py-20 bg-white">
         <div class="container mx-auto px-6">
             <div class="flex flex-col md:flex-row items-center gap-12">
-                <!-- Text Content -->
                 <div class="w-full md:w-1/2">
                     <h2 class="text-3xl md:text-4xl font-bold text-royal-900 mb-6 relative">
-                        Urban Learning & Resource Center
+                        Our Story & Mission
                         <span class="absolute bottom-0 left-0 w-20 h-1 bg-gold-500 -mb-2"></span>
                     </h2>
-                    <p class="text-gray-700 mb-4 font-semibold text-lg leading-snug">
-                        We operate on the ground, delivering life skills and career pathways directly to the returning citizen population.
+                    <p class="text-gray-700 mb-4 font-semibold">
+                        Royal Chances Reentry Foundation operates as a Learning and Resource Center providing workforce development, education, and life skills support for returning citizens.
                     </p>
                     <p class="text-gray-600 mb-4 leading-relaxed">
-                        Royal Chances Reentry Foundation is more than a nonprofit—it is a community hub led by those with lived experience. We understand the hurdles of reintegration because we have cleared them ourselves.
+                        The organization employs outreach workers, clinical staff, and volunteers to deliver programs including job placement, resume development, interview preparation, public speaking, and counseling referrals.
                     </p>
-                    <div class="bg-royal-50 p-6 rounded-lg border-l-4 border-royal-700 mb-6">
-                        <p class="text-sm text-gray-700 italic">
-                            "To empower all returning citizens through lived-experience–led education, job readiness, and personal development designed to restore dignity and reduce recidivism."
-                        </p>
+                    <p class="text-gray-600 mb-6 italic border-l-4 border-gold-500 pl-4">
+                        "To empower all returning citizens through lived-experience–led education, job readiness, and personal development. Royal Chances Reentry Foundation provides learning opportunities, mentorship, and support services designed to restore dignity, promote employment, and reduce recidivism."
+                    </p>
+                    
+                    <div class="bg-royal-50 p-6 rounded-lg border-l-4 border-royal-700">
+                        <h4 class="font-bold text-royal-900 mb-2">Our Vision</h4>
+                        <p class="text-sm text-gray-700">To establish a national model of reentry education that connects learning, corporate partnerships, and community support to ensure every returning citizen achieves long-term stability and success.</p>
                     </div>
-                    <p class="text-gray-600">
-                        Our clinical staff, outreach workers, and volunteers work tirelessly to provide job placement, public speaking training, and counseling referrals that actually move the needle.
-                    </p>
                 </div>
                 
+                <!-- Updated Reentry/Success Image -->
                 <div class="w-full md:w-1/2">
-                    <div class="bg-gray-100 rounded-lg aspect-square relative overflow-hidden shadow-2xl border-b-8 border-gold-500 group">
-                        <!-- Diverse Urban/Resource Center Image -->
-                        <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&q=80&w=1000" 
-                             alt="Diverse group of adults collaborating in an urban community learning center" 
-                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                        <!-- Fallback Overlay -->
-                        <div class="absolute inset-0 bg-royal-900/10 group-hover:bg-transparent transition-colors duration-500"></div>
+                    <div class="rounded-lg aspect-square relative overflow-hidden shadow-xl border-b-8 border-gold-500 bg-gray-200">
+                        <img 
+                            src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=2070&auto=format&fit=crop" 
+                            alt="Urban professionals of color working together in a learning environment" 
+                            class="w-full h-full object-cover"
+                            onerror="this.src='https://via.placeholder.com/800x800?text=New+Beginnings+and+Support'"
+                        />
+                        <div class="absolute bottom-0 left-0 right-0 bg-hunter-900/70 backdrop-blur-sm p-4 text-center">
+                            <p class="uppercase font-bold tracking-widest text-white text-xs">Realizing Potential through Mentorship</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Values Section -->
-    <section id="values" class="py-16 bg-royal-900 text-white">
+    <!-- Values Section (Hunter Green Palette) -->
+    <section id="values" class="py-16 bg-hunter-800 text-white">
         <div class="container mx-auto px-6">
             <div class="text-center mb-12">
                 <h2 class="text-3xl font-bold mb-2">Our Core Values</h2>
@@ -157,115 +167,106 @@
                 <div>
                     <div class="text-gold-500 text-3xl mb-2"><i class="fa-solid fa-heart"></i></div>
                     <h4 class="font-bold uppercase text-xs tracking-widest">Empathy</h4>
-                    <p class="text-[10px] text-royal-200 mt-1 uppercase">Lived Experience</p>
                 </div>
                 <div>
                     <div class="text-gold-500 text-3xl mb-2"><i class="fa-solid fa-scale-balanced"></i></div>
                     <h4 class="font-bold uppercase text-xs tracking-widest">Accountability</h4>
-                    <p class="text-[10px] text-royal-200 mt-1 uppercase">Structure & Growth</p>
                 </div>
                 <div>
                     <div class="text-gold-500 text-3xl mb-2"><i class="fa-solid fa-door-open"></i></div>
                     <h4 class="font-bold uppercase text-xs tracking-widest">Opportunity</h4>
-                    <p class="text-[10px] text-royal-200 mt-1 uppercase">Employment</p>
                 </div>
                 <div>
                     <div class="text-gold-500 text-3xl mb-2"><i class="fa-solid fa-people-group"></i></div>
                     <h4 class="font-bold uppercase text-xs tracking-widest">Community</h4>
-                    <p class="text-[10px] text-royal-200 mt-1 uppercase">Support Networks</p>
                 </div>
                 <div>
                     <div class="text-gold-500 text-3xl mb-2"><i class="fa-solid fa-handshake-angle"></i></div>
                     <h4 class="font-bold uppercase text-xs tracking-widest">Respect</h4>
-                    <p class="text-[10px] text-royal-200 mt-1 uppercase">Dignity</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Programs -->
+    <!-- Programs (Palette Integration) -->
     <section id="programs" class="py-20 bg-gray-100">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-royal-900 mb-4 tracking-tight">Direct Support Programs</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">Connecting returning citizens to the resources they need to thrive.</p>
+                <h2 class="text-3xl md:text-4xl font-bold text-royal-900 mb-4">Our Programs</h2>
             </div>
             <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white p-8 rounded-lg shadow-lg border-t-4 border-royal-900">
-                    <h3 class="text-xl font-bold mb-3">Workforce Training</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">Resume development, interview prep, and customized workshops aligned with corporate partnership needs.</p>
+                <div class="bg-white p-8 rounded-lg shadow border-t-4 border-royal-900">
+                    <h3 class="text-xl font-bold mb-3 text-royal-900">Learning Center</h3>
+                    <p class="text-gray-600 text-sm">Workforce development, education, and life skills support for returning citizens.</p>
                 </div>
-                <div class="bg-white p-8 rounded-lg shadow-lg border-t-4 border-gold-500">
-                    <h3 class="text-xl font-bold mb-3">Resource Navigation</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">Referrals to counseling, clinical support, and community services led by people who understand the system.</p>
+                <div class="bg-white p-8 rounded-lg shadow border-t-4 border-gold-500">
+                    <h3 class="text-xl font-bold mb-3 text-gold-600">Workforce Partnerships</h3>
+                    <p class="text-gray-600 text-sm">Creating fair-chance employment pathways with corporate and trade partners.</p>
                 </div>
-                <!-- Felony Explanation Letter replaces Housing Support -->
-                <div class="bg-white p-8 rounded-lg shadow-lg border-t-4 border-royal-900">
-                    <h3 class="text-xl font-bold mb-3">Felony Explanation Letter</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">Expert guidance in drafting professional, honest, and compelling letters that address your history with accountability and focus on your transformation.</p>
+                <div class="bg-white p-8 rounded-lg shadow border-t-4 border-hunter-500">
+                    <h3 class="text-xl font-bold mb-3 text-hunter-700">Transitional Housing</h3>
+                    <p class="text-gray-600 text-sm">Future expansion plans for halfway houses and structured reintegration support.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer with Contact Buttons -->
+    <!-- Footer -->
     <footer id="contact" class="bg-black text-gray-400 py-12 border-t border-gray-800">
         <div class="container mx-auto px-6">
             <div class="grid md:grid-cols-4 gap-8 mb-8">
                 <div class="col-span-1">
                     <span class="text-white text-xl font-bold uppercase block mb-4">Royal Chances</span>
-                    <p class="text-sm">Restoring dignity and reducing recidivism through urban-centered support for returning citizens.</p>
+                    <p class="text-sm">Restoring dignity and reducing recidivism through education and support.</p>
                 </div>
 
                 <div>
-                    <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-widest">Foundation</h4>
+                    <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Quick Links</h4>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="#about" class="hover:text-gold-500 transition">Our Narrative</a></li>
+                        <li><a href="#about" class="hover:text-gold-500 transition">About Us</a></li>
                         <li><a href="#programs" class="hover:text-gold-500 transition">Programs</a></li>
                         <li><a href="#values" class="hover:text-gold-500 transition">Core Values</a></li>
                     </ul>
                 </div>
 
-                <!-- Contact Buttons -->
+                <!-- Contact Buttons pointing to support@Royalchancesreentry.org -->
                 <div>
-                    <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-widest">Get In Touch</h4>
+                    <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Get In Touch</h4>
                     <div class="space-y-3">
-                        <a href="mailto:info@royalchances.org" class="flex items-center space-x-3 bg-gray-900 border border-gray-800 p-3 rounded-lg hover:border-gold-500 hover:bg-royal-900 transition group w-full">
+                        <a href="mailto:support@Royalchancesreentry.org" class="flex items-center space-x-3 bg-gray-900 border border-gray-800 p-3 rounded-lg hover:border-hunter-500 hover:bg-hunter-900 transition group w-full">
                             <div class="w-8 h-8 flex-shrink-0 flex items-center justify-center bg-gold-500 text-royal-900 rounded-full group-hover:bg-white transition">
                                 <i class="fa-solid fa-envelope text-xs"></i>
                             </div>
                             <div class="overflow-hidden">
-                                <span class="block text-white text-[10px] font-bold uppercase tracking-widest leading-none mb-1 text-left">General Support</span>
-                                <span class="text-gray-500 text-xs font-medium block">Email Inquiries</span>
+                                <span class="block text-white text-[10px] font-bold uppercase tracking-widest leading-none mb-1">General Support</span>
+                                <span class="text-gray-500 text-xs font-medium block italic">support@Royalchancesreentry.org</span>
                             </div>
                         </a>
                         
-                        <a href="mailto:mharris@royalchancesreentry.org" class="flex items-center space-x-3 bg-gray-900 border border-gray-800 p-3 rounded-lg hover:border-gold-500 hover:bg-royal-900 transition group w-full">
+                        <a href="mailto:mharris@royalchancesreentry.org" class="flex items-center space-x-3 bg-gray-900 border border-gray-800 p-3 rounded-lg hover:border-hunter-500 hover:bg-hunter-900 transition group w-full">
                             <div class="w-8 h-8 flex-shrink-0 flex items-center justify-center bg-gold-500 text-royal-900 rounded-full group-hover:bg-white transition">
                                 <i class="fa-solid fa-bullhorn text-xs"></i>
                             </div>
-                            <div class="overflow-hidden text-left">
+                            <div class="overflow-hidden">
                                 <span class="block text-white text-[10px] font-bold uppercase tracking-widest leading-none mb-1">Media & PR</span>
-                                <span class="text-gray-500 text-xs font-medium block">Contact Marketing</span>
+                                <span class="text-gray-500 text-xs font-medium block italic">Inquire with Marketing</span>
                             </div>
                         </a>
                     </div>
                 </div>
 
-                <!-- Functional Newsletter Form -->
                 <div>
-                    <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-widest">Newsletter</h4>
+                    <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Newsletter</h4>
                     <form name="newsletter" method="POST" data-netlify="true" class="flex flex-col space-y-2">
                         <input type="hidden" name="form-name" value="newsletter" />
                         <input type="email" name="email" required placeholder="Your email address" class="bg-gray-900 border border-gray-700 text-white px-4 py-2 rounded focus:border-gold-500 outline-none text-sm">
                         <button type="submit" class="bg-royal-800 text-white px-4 py-2 rounded font-bold hover:bg-gold-500 hover:text-royal-900 transition text-sm">Subscribe</button>
                     </form>
-                    <p class="text-[10px] mt-2 italic text-gray-500">Submissions are saved securely in Netlify.</p>
                 </div>
             </div>
 
             <div class="border-t border-gray-800 pt-8 text-center md:text-left text-sm">
-                <p>&copy; 2025 Royal Chances Reentry Foundation. Massachusetts Nonprofit.</p>
+                <p>&copy; 2025 Royal Chances Reentry Foundation. All rights reserved.</p>
             </div>
         </div>
     </footer>
