@@ -66,12 +66,13 @@
 
             <div class="hidden md:flex space-x-8 font-medium">
                 <a href="#about" class="hover:text-gold-400 transition">About</a>
+                <a href="#specialization" class="hover:text-gold-400 transition text-gold-500">Expertise</a>
                 <a href="#values" class="hover:text-gold-400 transition">Values</a>
                 <a href="#programs" class="hover:text-gold-400 transition">Programs</a>
                 <a href="#contact" class="hover:text-gold-400 transition">Contact</a>
             </div>
 
-            <!-- Donate Button points to support email -->
+            <!-- Donate Button -->
             <a href="mailto:support@Royalchancesreentry.org?subject=Donation Inquiry" class="hidden md:inline-block bg-gold-500 text-royal-900 px-6 py-2 rounded-full font-bold hover:bg-white hover:text-royal-900 transition transform hover:-translate-y-0.5 shadow-md">
                 Support Our Mission
             </a>
@@ -83,6 +84,7 @@
 
         <div id="mobile-menu" class="hidden md:hidden bg-royal-800 border-t border-royal-700">
             <a href="#about" class="block py-3 px-6 hover:bg-royal-700">About</a>
+            <a href="#specialization" class="block py-3 px-6 hover:bg-royal-700 text-gold-400">Expertise</a>
             <a href="#values" class="block py-3 px-6 hover:bg-royal-700">Values</a>
             <a href="#programs" class="block py-3 px-6 hover:bg-royal-700">Programs</a>
             <a href="#contact" class="block py-3 px-6 hover:bg-royal-700">Contact</a>
@@ -106,8 +108,8 @@
                 <a href="#programs" class="bg-gold-500 text-royal-900 px-8 py-3 rounded-md font-bold text-lg hover:bg-white transition shadow-lg">
                     Our Programs
                 </a>
-                <a href="#about" class="border-2 border-white text-white px-8 py-3 rounded-md font-bold text-lg hover:bg-white hover:text-royal-900 transition">
-                    Our Vision
+                <a href="#specialization" class="border-2 border-white text-white px-8 py-3 rounded-md font-bold text-lg hover:bg-white hover:text-royal-900 transition">
+                    Specialized Training
                 </a>
             </div>
         </div>
@@ -138,17 +140,17 @@
                     </div>
                 </div>
                 
-                <!-- Updated Reentry/Success Image -->
+                <!-- Learning Image -->
                 <div class="w-full md:w-1/2">
                     <div class="rounded-lg aspect-square relative overflow-hidden shadow-xl border-b-8 border-gold-500 bg-gray-200">
                         <img 
                             src="https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=2070&auto=format&fit=crop" 
-                            alt="Urban professionals of color working together in a learning environment" 
+                            alt="Adults in a collaborative learning environment" 
                             class="w-full h-full object-cover"
                             onerror="this.src='https://via.placeholder.com/800x800?text=New+Beginnings+and+Support'"
                         />
                         <div class="absolute bottom-0 left-0 right-0 bg-hunter-900/70 backdrop-blur-sm p-4 text-center">
-                            <p class="uppercase font-bold tracking-widest text-white text-xs">Realizing Potential through Mentorship</p>
+                            <p class="uppercase font-bold tracking-widest text-white text-xs">Realizing Potential through Support</p>
                         </div>
                     </div>
                 </div>
@@ -156,7 +158,41 @@
         </div>
     </section>
 
-    <!-- Values Section (Hunter Green Palette) -->
+    <!-- NEW SPECIALIZATION HIGHLIGHT SECTION -->
+    <section id="specialization" class="py-16 bg-gray-50 border-y border-gray-200">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col md:flex-row border border-gold-100">
+                <div class="bg-hunter-600 md:w-1/3 p-10 flex items-center justify-center text-white">
+                    <div class="text-center">
+                        <i class="fa-solid fa-file-signature text-6xl mb-4 text-gold-400"></i>
+                        <h3 class="text-xl font-bold uppercase tracking-tight">Expert Training</h3>
+                    </div>
+                </div>
+                <div class="p-8 md:p-12 md:w-2/3">
+                    <h2 class="text-2xl md:text-3xl font-bold text-royal-900 mb-4">Specialized Felony Explanation Letter Training</h2>
+                    <p class="text-gray-700 leading-relaxed mb-6">
+                        One of the most significant barriers to employment for returning citizens is effectively communicating their past while highlighting their transformation. 
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <div class="mt-1 bg-gold-500 rounded-full p-1"><i class="fa-solid fa-check text-[10px] text-royal-900"></i></div>
+                            <p class="text-sm text-gray-600"><span class="font-bold text-royal-900">Ownership:</span> Learn to speak about your history with honesty and integrity.</p>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="mt-1 bg-gold-500 rounded-full p-1"><i class="fa-solid fa-check text-[10px] text-royal-900"></i></div>
+                            <p class="text-sm text-gray-600"><span class="font-bold text-royal-900">Transformation:</span> Highlight the specific steps and growth achieved since your conviction.</p>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="mt-1 bg-gold-500 rounded-full p-1"><i class="fa-solid fa-check text-[10px] text-royal-900"></i></div>
+                            <p class="text-sm text-gray-600"><span class="font-bold text-royal-900">Value Proposition:</span> Connect your lived experience to the resilience and work ethic employers value.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section (Hunter Green) -->
     <section id="values" class="py-16 bg-hunter-800 text-white">
         <div class="container mx-auto px-6">
             <div class="text-center mb-12">
@@ -188,24 +224,27 @@
         </div>
     </section>
 
-    <!-- Programs (Palette Integration) -->
+    <!-- Programs -->
     <section id="programs" class="py-20 bg-gray-100">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-royal-900 mb-4">Our Programs</h2>
             </div>
             <div class="grid md:grid-cols-3 gap-8">
+                <!-- Learning Center -->
                 <div class="bg-white p-8 rounded-lg shadow border-t-4 border-royal-900">
                     <h3 class="text-xl font-bold mb-3 text-royal-900">Learning Center</h3>
                     <p class="text-gray-600 text-sm">Workforce development, education, and life skills support for returning citizens.</p>
                 </div>
+                <!-- Workforce Partnerships -->
                 <div class="bg-white p-8 rounded-lg shadow border-t-4 border-gold-500">
                     <h3 class="text-xl font-bold mb-3 text-gold-600">Workforce Partnerships</h3>
                     <p class="text-gray-600 text-sm">Creating fair-chance employment pathways with corporate and trade partners.</p>
                 </div>
+                <!-- Felony Explanation Letter Specialist -->
                 <div class="bg-white p-8 rounded-lg shadow border-t-4 border-hunter-500">
-                    <h3 class="text-xl font-bold mb-3 text-hunter-700">Transitional Housing</h3>
-                    <p class="text-gray-600 text-sm">Future expansion plans for halfway houses and structured reintegration support.</p>
+                    <h3 class="text-xl font-bold mb-3 text-hunter-700">Letter Specialist Training</h3>
+                    <p class="text-gray-600 text-sm">One-on-one coaching to master the Felony Explanation Letter, ensuring your first impression is one of growth and accountability.</p>
                 </div>
             </div>
         </div>
@@ -224,12 +263,13 @@
                     <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Quick Links</h4>
                     <ul class="space-y-2 text-sm">
                         <li><a href="#about" class="hover:text-gold-500 transition">About Us</a></li>
+                        <li><a href="#specialization" class="hover:text-gold-500 transition">Our Expertise</a></li>
                         <li><a href="#programs" class="hover:text-gold-500 transition">Programs</a></li>
                         <li><a href="#values" class="hover:text-gold-500 transition">Core Values</a></li>
                     </ul>
                 </div>
 
-                <!-- Contact Buttons pointing to support@Royalchancesreentry.org -->
+                <!-- Contact Buttons -->
                 <div>
                     <h4 class="text-white font-bold mb-4 uppercase text-sm tracking-wider">Get In Touch</h4>
                     <div class="space-y-3">
